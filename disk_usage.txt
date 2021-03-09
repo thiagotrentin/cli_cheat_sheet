@@ -1,0 +1,7 @@
+# DOCKER
+# exibir espaço de todas imagens, containers e volumes do docker
+docker system df -v
+
+# SO
+# exibir espaço de todos os diretórios, inclusive os ocultos
+du -sch .[!.]* * |sort -h
